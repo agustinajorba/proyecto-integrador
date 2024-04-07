@@ -1,0 +1,21 @@
+header{
+    background-color: rgb(217,217,217);
+}
+
+.logo-img{
+    background-image: URL("../img/logo.jpg");
+    background-position: right-top;
+    width: 10%;
+    height: 46px;
+}
+
+.barra-navegacion{
+    display: flex;
+    flex-direction: row;
+}
+
+.barra{
+    padding: 20px;
+    
+}
+
