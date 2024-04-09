@@ -3,22 +3,24 @@ header{
 }
 
 .logo-img{
-    background-image: URL("../img/logo.jpg");
-    background-position: right-top;
-    width: 10%;
-    height: 46px;
+    width: 15%;
+    height: 70px;
+    position: absolute;
+    top: 25px;
+    margin-left: 2.5%;
 }
 
 .barra-navegacion{
     display: flex;
     flex-direction: row;
+    width: 100%;
+    margin-left: 30%;
 }
 
 .barra{
     padding: 20px;
-    
-}
-body{
-    background-color: #b2bbbf;
 }
 
+body{
+    margin: 0;
+}
