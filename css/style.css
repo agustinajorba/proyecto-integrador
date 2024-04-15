@@ -1,5 +1,13 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 header {
     background-color: rgb(217, 217, 217);
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 .logo {
@@ -42,16 +50,18 @@ div img {
     flex-wrap: wrap;
     display: flex;
     flex-direction: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 70px;
-    margin-bottom: 70px;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: flex-start;
     font-family: "Fira Sans", sans-serif;
     font-weight: 100;
+    padding: 2%;
 }
 
 footer {
     background-color: rgb(217, 217, 217);
+    padding-top: 0.2%;
+    padding-bottom: 0.2%;
 }
 
 .text-footer {
@@ -62,5 +72,29 @@ footer {
 }
 
 main {
-    background-color: yellow;
+    background-color: rgb(237, 237, 237);
+    padding-bottom: 2%;
+
+}
+
+.titulo-secciones {
+    font-family: "Fira Sans", sans-serif;
+    padding-top: 1%;
+    font-size: 28px;
+    margin-bottom: 0;
+    border-bottom: 2px solid black;
+    margin-left: 1.7%;
+    margin-right: 1.7%;
+}
+
+.articulos-home {
+    border: 1px solid black;
+}
+
+.contenedores.articulos {
+    width: 5%;
+}
+
+.textos-secciones {
+    width: 200px;
 }
