@@ -73,7 +73,7 @@ footer {
     margin: 0;
     font-weight: 100;
     color: white;
-    
+
 }
 
 main {
@@ -102,23 +102,26 @@ main {
 }
 
 .textos-secciones {
-    width: 270px; 
+    width: 270px;
     color: black;
 }
 
-.textos-agregar-carrito{
+.textos-agregar-carrito {
     font-weight: bold;
-    color: white ;
+    color: white;
     background-color: rgb(125, 125, 125);
     padding: 1.5%;
 }
 
-.textos-precios{
-margin-bottom: 4%;
-margin-top: 1.2%;
-font-weight: bold;
-color: black;
+.textos-precios {
+    margin-bottom: 4%;
+    margin-top: 1.2%;
+    font-weight: bold;
+    color: black;
 }
 
-
-
+.ver-mas{
+    text-decoration: underline;
+    color: black;
+    font-weight: 300;
+}
