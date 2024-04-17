@@ -106,7 +106,7 @@ main {
     color: black;
 }
 
-.textos-agregar-carrito {
+.boton-carrito {
     font-weight: bold;
     color: white;
     background-color: rgb(125, 125, 125);
@@ -120,8 +120,25 @@ main {
     color: black;
 }
 
-.ver-mas{
+
+.form-login{
     text-decoration: underline;
     color: black;
-    font-weight: 300;
+    font-weight: 50;
+    background-color: blue;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.etiquetas-del-form{
+    font-family: "Fira Sans", sans-serif;      
+}
+
+.contenedor-login{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; 
+    align-items: center;
+    display: flex;
+    width: 320px;
+    margin: auto;
 }
