@@ -111,6 +111,8 @@ main {
     color: white;
     background-color: rgb(125, 125, 125);
     padding: 1.5%;
+    font-family: "Fira Sans", sans-serif;
+    border: 0;
 }
 
 .textos-precios {
@@ -141,4 +143,15 @@ main {
     display: flex;
     width: 320px;
     margin: auto;
+}
+
+.ver-mas{
+    padding: 1%;
+    margin-top: 1.2%;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.foto-producto{
+    width: 10%;
+    height: 200px;
 }
