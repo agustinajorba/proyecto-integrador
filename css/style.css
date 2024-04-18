@@ -159,6 +159,7 @@ main {
     font-family: "Fira Sans", sans-serif;
     font-weight: 100;
     padding-top:2% ;
+    padding: 1%;
 }
 .textos-precio-producto{
     margin-top: 1.2%;
@@ -194,4 +195,21 @@ main {
 .ingresar-boton2{
     text-align: center;
     padding-bottom: 2%;
+}
+
+.contrasena-repetir{
+    padding-bottom: 2%;
+    text-align: center;
+    text-align: center;
+}
+
+.terminos{
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.contenedor-register{
+    margin: auto;
+    padding: 9.3%;
+    font-family: "Fira Sans", sans-serif; 
 }
