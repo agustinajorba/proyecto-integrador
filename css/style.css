@@ -213,3 +213,8 @@ main {
     padding: 9.3%;
     font-family: "Fira Sans", sans-serif; 
 }
+
+.mail-recover{
+    padding-bottom: 2%;
+    text-align: center;
+}
