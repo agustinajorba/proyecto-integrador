@@ -223,11 +223,24 @@ main {
         font-family: "DM Serif Display", serif;
         font-weight: 400;
         font-size: 20px;
-        align-self: center;
+        padding-right: 70%;
+        padding-left: 30%;
+        padding-bottom: 2.5%;
+        
+        
 }
 .barra{
     color: white;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 8.7px;
+    padding-bottom: 2%;
+}
+
+.barra-navegacion{
+    padding-left: 3%;
+}
+.contenedor{
+    padding-left: 18%;
 }
 }
+
