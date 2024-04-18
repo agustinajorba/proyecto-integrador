@@ -34,21 +34,26 @@
             <p class="barra"><a href="./register.html">REGISTRO</a></p>
         </div>
     </header>
-    <section class="contenedor-login">
-        <form action="login.html" method="get">
-            <div class="etiquetas-del-form">
-                <label for="mail"> Ingrese su email:</label>
-                <input type="email">
-                <label for="contra"> Ingrese su contraseña:</label>
-                <input type="password">
-                <button type="submit"> Ingresar </button>
-            </div>
-        </form>
-    </section>
+    <main>
+        <section class="contenedor-login">
+            <h2 class="login-title">Login</h2>
+            <form action="login.html" method="get">
+                <div class="mail">
+                    <label for="mail"> Ingrese su email:</label>
+                    <input type="email">
+                </div>
+                <div class="contrasena">
+                    <label for="contra"> Ingrese su contraseña:</label>
+                    <input type="password">
+                </div>
+                <div class="ingresar-boton2"><button type="submit" class="ingresar-boton"> Ingresar </button></div>
 
-    <p class="form-login"><a href="./register.html">No tengo cuenta</a></p>
-    <p class="form-login"><a href="./recover.html">Recuperar contraseña</a></p>
 
+            </form>
+            <p class="form-login"><a href="./register.html" class="form-login">No tengo cuenta</a></p>
+            <p class="form-login"><a href="./recover.html" class="form-login">Recuperar contraseña</a></p>
+        </section>
+    </main>
 
     <footer>
         <div class="text-footer">

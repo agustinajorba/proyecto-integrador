@@ -122,38 +122,33 @@ main {
     color: black;
 }
 
-
 .form-login{
-    text-decoration: underline;
     color: black;
     font-weight: 50;
-    background-color: blue;
     font-family: "Fira Sans", sans-serif;
-}
-
-.etiquetas-del-form{
-    font-family: "Fira Sans", sans-serif;      
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 0.7px;
 }
 
 .contenedor-login{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column; 
-    align-items: center;
-    display: flex;
-    width: 320px;
     margin: auto;
+    padding: 15%;
+    font-family: "Fira Sans", sans-serif; 
 }
 
 .ver-mas{
     padding: 1%;
     margin-top: 1.2%;
     font-family: "Fira Sans", sans-serif;
+    border: 0;
+    text-decoration: underline;
 }
 
 .foto-producto{
     height: 360px;
     width: 270px;
+    margin-top: 2%;
 }
 
 .contenedor-producto{
@@ -169,4 +164,34 @@ main {
     margin-top: 1.2%;
     font-weight: bold;
     color: black;
+}
+
+.contrasena{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+.mail{
+    text-align: center;
+}
+
+.ingresar-boton{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(125, 125, 125);
+    font-family: "Fira Sans", sans-serif;
+    border: 0;
+    padding: 1%;
+}
+
+.login-title{
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.ingresar-boton2{
+    text-align: center;
+    padding-bottom: 2%;
 }
