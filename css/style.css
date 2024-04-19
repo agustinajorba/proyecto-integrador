@@ -121,7 +121,7 @@ main {
 
 .contenedor-login{
     margin: auto;
-    padding: 15%;
+
     font-family: "Fira Sans", sans-serif; 
 }
 
@@ -176,6 +176,19 @@ main {
     text-align: center;
 }
 
+.boton-carrito-producto{
+    font-weight: bold;
+    color: white;
+    background-color: rgb(125, 125, 125);
+    padding: 8px 15px;
+    font-family: "Fira Sans", sans-serif;
+    border: 0;
+    border-radius: 50vh;
+    width: 160px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
 
 .contrasena{
     padding-top: 2%;
@@ -221,7 +234,6 @@ main {
 
 .contenedor-register{
     margin: auto;
-    padding: 15%;
     font-family: "Fira Sans", sans-serif; 
 }
 
@@ -229,6 +241,26 @@ main {
     padding-bottom: 2%;
     text-align: center;
 }
+
+.altura-header{
+    height: 10vh;
+}
+
+.altura-main{
+    height: 85vh;
+    display: flex;
+    align-items: center;
+   justify-content: space-around;
+}
+
+.altura-footer{
+    height: 5vh;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+
 @media(max-width:420px){
     .logo {
         font-family: "DM Serif Display", serif;
@@ -236,8 +268,6 @@ main {
         font-size: 15px;
         padding-bottom: 2.5%;
         padding-left: 18%;
-        
-        
         
 }
 .barra{
@@ -271,5 +301,7 @@ main {
     margin-bottom: 60px;
 }
 
+
+    
 }
 
