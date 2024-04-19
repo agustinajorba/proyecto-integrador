@@ -15,7 +15,7 @@ header {
     margin-right: 7%;
     font-family: "DM Serif Display", serif;
     font-weight: 400;
-    font-size: 50px;
+    font-size: 24px;
 }
 
 a {
@@ -30,12 +30,16 @@ a {
     font-family: "Fira Sans", sans-serif;
     align-items: center;
     color: white;
+    margin-left: 4%;
 }
 
 .barra {
+    display: flex;
+    flex-direction: row;
     padding-left: 2.5%;
     color: white;
     text-decoration: none;
+    padding-left: 6%;
 }
 
 body {
@@ -149,6 +153,7 @@ main {
     height: 360px;
     width: 270px;
     margin-top: 2%;
+    border: 1px solid black;
 }
 
 .contenedor-producto{
@@ -222,10 +227,10 @@ main {
     .logo {
         font-family: "DM Serif Display", serif;
         font-weight: 400;
-        font-size: 20px;
-        padding-right: 70%;
-        padding-left: 30%;
+        font-size: 15px;
         padding-bottom: 2.5%;
+        padding-left: 18%;
+        
         
         
 }
@@ -234,13 +239,32 @@ main {
     text-decoration: none;
     font-size: 8.7px;
     padding-bottom: 2%;
+    padding-left: 2%;
 }
 
 .barra-navegacion{
     padding-left: 3%;
+    
+    
+    
 }
 .contenedor{
     padding-left: 18%;
 }
+
+.textos-precios{
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.boton-carrito1{
+    padding-left: 30%;
+    margin-bottom: 9%;
+}
+
+.articulos-home{
+    margin-top: 5%;
+}
+
 }
 
