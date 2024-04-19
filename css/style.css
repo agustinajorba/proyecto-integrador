@@ -8,7 +8,6 @@ header {
     background-color: black;
     padding-top: 1%;
     padding-bottom: 1%;
-    height: 10vh;
 }
 
 .logo {
@@ -64,7 +63,6 @@ div img {
 
 footer {
     background-color: black;
-    height: 5vh;
 }
 
 .text-footer {
@@ -74,14 +72,10 @@ footer {
     margin: 0;
     font-weight: 100;
     color: white;
-
 }
 
 main {
     background-color: rgb(237, 237, 237);
-    height: 85vh;
-
-
 }
 
 .titulo-secciones {
@@ -106,16 +100,6 @@ main {
 .textos-secciones {
     width: 270px;
     color: black;
-}
-
-.boton-carrito {
-    font-weight: bold;
-    color: white;
-    background-color: rgb(125, 125, 125);
-    padding: 3%;
-    font-family: "Fira Sans", sans-serif;
-    border: 0;
-    border-radius: 50vh;
 }
 
 .textos-precios {
@@ -180,7 +164,7 @@ main {
     padding-bottom: 1%;
 }
 
-.boton-car{
+.boton-carrito{
     font-weight: bold;
     color: white;
     background-color: rgb(125, 125, 125);
@@ -188,7 +172,8 @@ main {
     font-family: "Fira Sans", sans-serif;
     border: 0;
     border-radius: 50vh;
-    
+    width: 160px;
+    text-align: center;
 }
 
 
@@ -265,9 +250,6 @@ main {
 
 .barra-navegacion{
     padding-left: 3%;
-    
-    
-    
 }
 .contenedor{
     padding-left: 18%;
@@ -278,13 +260,15 @@ main {
     margin-bottom: 2%;
 }
 
-.boton-carrito1{
-    padding-left: 30%;
-    margin-bottom: 9%;
-}
-
 .articulos-home{
     margin-top: 5%;
+}
+
+.boton-carrito{
+    text-align: center;
+    width: 180px;
+    margin-left: 50px;
+    margin-bottom: 60px;
 }
 
 }
