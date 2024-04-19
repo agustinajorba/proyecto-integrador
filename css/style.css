@@ -8,6 +8,7 @@ header {
     background-color: black;
     padding-top: 1%;
     padding-bottom: 1%;
+    height: 10vh;
 }
 
 .logo {
@@ -42,19 +43,16 @@ a {
     padding-left: 6%;
 }
 
-body {
-    margin: 0;
-}
-
 div img {
     height: 360px;
     width: 270px;
 
 }
 
+
 .contenedor {
-    flex-wrap: wrap;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: flex;
     justify-content: center;
     justify-content: space-between;
@@ -66,8 +64,7 @@ div img {
 
 footer {
     background-color: black;
-    padding-top: 0.5%;
-    padding-bottom: 0.5%;
+    height: 5vh;
 }
 
 .text-footer {
@@ -82,7 +79,8 @@ footer {
 
 main {
     background-color: rgb(237, 237, 237);
-    padding-bottom: 2%;
+    height: 85vh;
+
 
 }
 
@@ -114,9 +112,10 @@ main {
     font-weight: bold;
     color: white;
     background-color: rgb(125, 125, 125);
-    padding: 1.5%;
+    padding: 3%;
     font-family: "Fira Sans", sans-serif;
     border: 0;
+    border-radius: 50vh;
 }
 
 .textos-precios {
@@ -133,6 +132,7 @@ main {
     text-align: center;
     text-decoration: underline;
     text-decoration-thickness: 0.7px;
+    
 }
 
 .contenedor-login{
@@ -147,6 +147,9 @@ main {
     font-family: "Fira Sans", sans-serif;
     border: 0;
     text-decoration: underline;
+    
+    color: black;
+    font-weight: 300;
 }
 
 .foto-producto{
@@ -160,17 +163,34 @@ main {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column; 
-    align-items: center;
     font-family: "Fira Sans", sans-serif;
+    align-items: center;
     font-weight: 100;
     padding-top:2% ;
     padding: 1%;
 }
 .textos-precio-producto{
-    margin-top: 1.2%;
     font-weight: bold;
     color: black;
+    padding-bottom: 1%;
 }
+
+.texto-categoria-producto{
+    padding-top: 1.7%;
+    padding-bottom: 1%;
+}
+
+.boton-car{
+    font-weight: bold;
+    color: white;
+    background-color: rgb(125, 125, 125);
+    padding: 8px 15px;
+    font-family: "Fira Sans", sans-serif;
+    border: 0;
+    border-radius: 50vh;
+    
+}
+
 
 .contrasena{
     padding-top: 2%;
@@ -190,6 +210,7 @@ main {
     font-family: "Fira Sans", sans-serif;
     border: 0;
     padding: 1%;
+    border-radius: 50vh;
 }
 
 .login-title{
@@ -215,7 +236,7 @@ main {
 
 .contenedor-register{
     margin: auto;
-    padding: 9.3%;
+    padding: 15%;
     font-family: "Fira Sans", sans-serif; 
 }
 
