@@ -4,30 +4,25 @@ fetch('https://fakestoreapi.com/products')
 
     })
     .then(function (data) {
-        console.log(data.results)
-        let prueba = document.querySelector('.prueba')
+        console.log(data)
+        let contenedor = document.querySelector('.contenedor')
         let productos = "";
         for (let i = 0; i < data.length; i++) {
             let producto = data[i];
             productos +=
                 `
-        <article>
-        <img src="${producto.image}" alt="${producto.title}"></img>
-        <p>${producto.title}</p>
-        <p> $${producto.price}</p>
+        <article class='contenedor contenedor-producto '>
+        <img src="${producto.image}" alt="${producto.title}" class= "foto-producto"></img>
+        <p class= 'textos-secciones'>${producto.title}</p>
+        <p class='ver-mas textos-secciones'>Ver Más</p><a href="href="./detail-product.html?id=${producto.id}">">
+        <p class='textos-precios textos-secciones'> $${producto.price}</p>
         </article>
         `;
         }
-        prueba.innerHTML = productos;
+        contenedor.innerHTML = productos;
+       
+    
     })
     .catch(function (error) {
         console.log("El error es: " + error);
     })
-
-
-let botonAddToCart = document.querySelector('.boton-carrito');
-
-botonAddToCart.addEventListener('click', function(){
-
-
-})
