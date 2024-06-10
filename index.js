@@ -14,15 +14,16 @@ fetch('https://fakestoreapi.com/products')
         <article class='contenedor contenedor-producto '>
         <img src="${producto.image}" alt="${producto.title}" class= "foto-producto"></img>
         <p class= 'textos-secciones'>${producto.title}</p>
-        <p class='ver-mas textos-secciones'>Ver Más</p><a href="href="./detail-product.html?id=${producto.id}">">
-        <p class='textos-precios textos-secciones'> $${producto.price}</p>
+        <p class='ver-mas textos-secciones' data-producto-id="${producto.id}">Ver Más</p>
+        <p class='textos-precios textos-secciones'> ${producto.price}</p>
         </article>
         `;
         }
         contenedor.innerHTML = productos;
        
-    
+
     })
+    
     .catch(function (error) {
         console.log("El error es: " + error);
     })
