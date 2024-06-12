@@ -8,7 +8,7 @@ fetch('https://fakestoreapi.com/products')
 
         let contenedor = document.querySelector('.contenedor');
         let productos = [];
-        for (let i = 0; i < data.length; i++) {
+        for (let i = 4; i < 8; i++) {
             let producto = data[i];
             productos +=
                 `
