@@ -6,11 +6,11 @@ fetch('https://fakestoreapi.com/products')
     .then(function (data) {
         console.log(data);
 
-        let contenedor = document.querySelector('.contenedor');
-        let productos = [];
+        let contenedorAccecorios = document.querySelector('.contenedor');
+        let Accesorios = [];
         for (let i = 4; i < 8; i++) {
             let producto = data[i];
-            productos +=
+            Accesorios +=
                 `
         <article class='contenedor contenedor-producto '>
         <img src="${producto.image}" alt="${producto.title}" class= "foto-producto"></img>
@@ -20,7 +20,24 @@ fetch('https://fakestoreapi.com/products')
         </article>
         `;
         }
-        contenedor.innerHTML = productos;
+        contenedorAccecorios.innerHTML = Accesorios;
+
+        let contenedorElectronica = document.querySelector('.contenedor-2')
+        let Electronica = [];
+        for (let i = 8; i < 12; i++) {
+            let producto = data[i];
+            Electronica +=
+                `
+        <article class='contenedor contenedor-producto'>
+        <img src="${producto.image}" alt="${producto.title}" class= "foto-producto"></img>
+        <p class= 'textos-secciones'>${producto.title}</p>
+        <a href="./producto.html?id=${producto.id}" class='ver-mas textos-secciones'>Ver Más</a>
+        <p class='textos-precios textos-secciones'> $${producto.price}</p>
+        </article>
+        `;
+        }
+        contenedorElectronica.innerHTML = Electronica;
+
 
 
     })
