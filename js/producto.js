@@ -15,8 +15,8 @@ fetch(`https://fakestoreapi.com/products/${id}`)
         let productoHTML =
             ` <article class='contenedor contenedor-producto '>
             <img src="${data.image}" alt="${data.title}" class= "foto-producto"></img>
-        <p class= 'textos-secciones'>${data.title}</p>
-        <p class= 'texto-categoria-producto'>${data.category}</p>
+        <p class= 'textos-secciones' style='text-align :center; font-weight:bold;'>${data.title}</p>
+        <p class= 'texto-categoria-producto'>${data.category.toUpperCase()}</p>
         <p class='textos-precio-producto'> $${data.price}</p>
         <p class= 'texto-secciones'>${data.description}</p>
         <a href="./cart.html?id=${data.id}" class= "boton-carrito-producto">Agregar al Carrito</a>
