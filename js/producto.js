@@ -1,6 +1,6 @@
 let querySearchProducto = new URLSearchParams(location.search);
-let category = querySearchProducto.get('categories');
-console.log(category);
+let id = querySearchProducto.get('id');
+console.log(id);
 
 fetch(`https://fakestoreapi.com/products/${id}`)
     .then(function (response) {
