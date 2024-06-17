@@ -24,7 +24,11 @@ form.addEventListener("submit", function(e){
     else{
         datosUsuario.email=email.value;
         datosUsuario.contra= contra.value;
-        localStorage.setItem("datosUsuario",JSON.stringify(datosUsuario))
+        let datos= JSON.stringify(datosUsuario)
+        localStorage.setItem("datosIngresados",datos)
+        let recuperoDatos = localStorage.getItem("datosIngresados")
+        let datosRecuperados = JSON.parse(recuperoDatos)
+            console.log(datosRecuperados)
         this.submit();
     }
 })
