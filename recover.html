@@ -42,17 +42,21 @@
     <main class="altura-main">
         <section class="contenedor-register">
             <h2 class="login-title">Recuperar contraseña</h2>
-            <form action="login.html" method="get">
+            <form action="login.html" method="get" class="form-recover">
                 <div class="mail-recover">
-                    <label for="mail"> Ingresar email:</label>
-                    <input id="mail" type="email" name="mail">
+                    <label for="email-recover"> Ingresar email:</label>
+                    <input id="email-recover" type="email" name="email-recover">
+                    <div class="error-email-recover"></div>
                 </div>
                 <div class="ingresar-boton2"><button type="submit" class="ingresar-boton"> Recuperar </button></div>
                 <div class="terminos">
                     <input id="terminos" type="checkbox" name="terminos" value="aceptar-terminos">
                     <label for="terminos"> Quiero recuperar mi contraseña</label>
+                    <div class="error-checkbox-recover"></div>
                 </div>
             </form>
+            <div class="mensaje-exito"></div>
+
         </section>
     </main>
 
@@ -61,6 +65,7 @@
             <p>Agustina Jorba & Martina Fernandez Covaro</p>
         </div>
     </footer>
+    <script src="./js/recover.js"></script>
 </body>
 
 </html>

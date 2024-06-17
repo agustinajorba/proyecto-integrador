@@ -42,18 +42,21 @@
     <main class="altura-main">
         <section class="contenedor-register">
             <h2 class="login-title">Registrate</h2>
-            <form action="login.html" method="get">
+            <form action="login.html" method="get" class="form-register">
                 <div class="mail">
-                    <label for="mail"> Ingresar email:</label>
-                    <input id="mail" type="email" name="mail">
+                    <label for="mail-register"> Ingresar email:</label>
+                    <input id="mail-register" type="email" name="mail-register">
+                    <div class="error-mail-register" ></div>
                 </div>
                 <div class="contrasena">
-                    <label for="contra"> Ingresar contraseña:</label>
-                    <input id="contra" type="password" name="contra">
+                    <label for="contra-register"> Ingresar contraseña:</label>
+                    <input id="contra-register" type="password" name="contra-register">
+                    <div class="error-contra-register"></div>
                 </div>
                 <div class="contrasena-repetir">
-                    <label for="contra"> Repetir contraseña:</label>
-                    <input id="contra" type="password" name="contra">
+                    <label for="re-contra-register"> Repetir contraseña:</label>
+                    <input id="re-contra-register" type="password" name="re-contra-register">
+                    <div class="error-contraRep-register" ></div>
                 </div>
                 <div class="ingresar-boton2"><button type="submit" class="ingresar-boton"> Registrarme </button>
                 </div>
@@ -71,6 +74,7 @@
             <p>Agustina Jorba & Martina Fernandez Covaro</p>
         </div>
     </footer>
+    <script src="./js/register.js"></script>
 </body>
 
 </html>
