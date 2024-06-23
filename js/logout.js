@@ -1,4 +1,3 @@
-//https://developer.mozilla.org/en-US/docs/Web/API/Document/DOMContentLoaded_event
 document.addEventListener("DOMContentLoaded", function () {
     let datosIngresados = localStorage.getItem("datosIngresados");
     let saludoBienvenida = document.querySelector('.saludo-frase');
@@ -21,7 +20,16 @@ document.addEventListener("DOMContentLoaded", function () {
             saludoLogin.style.display = 'none';
             saludoRegister.style.display = 'none';
         }
+        
+//Hasta acá es lo mismo que el saludo.js
 
+        logout.addEventListener('click', function (e) {
+            e.preventDefault();
+            localStorage.removeItem('datosIngresados');
+            window.location.href = './login.html';
+            saludoLogin.style.display = 'block';
+            saludoRegister.style.display = 'block';
+        });
     }
 
 });
