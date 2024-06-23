@@ -23,7 +23,6 @@ form.addEventListener("submit", function(e){
     }
     else{
         datosUsuario.email=email.value;
-        datosUsuario.contra= contra.value;
         let datos= JSON.stringify(datosUsuario)
         localStorage.setItem("datosIngresados",datos)
         let recuperoDatos = localStorage.getItem("datosIngresados")
