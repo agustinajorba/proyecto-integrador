@@ -12,7 +12,6 @@ header {
 
 .logo {
     margin-left: 1.7%;
-    margin-right: 7%;
     font-family: "DM Serif Display", serif;
     font-weight: 400;
     font-size: 24px;
@@ -39,7 +38,6 @@ a {
     padding-left: 2.5%;
     color: white;
     text-decoration: none;
-    padding-left: 6%;
 }
 
 div img {

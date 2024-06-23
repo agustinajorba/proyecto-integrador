@@ -5,18 +5,24 @@ document.addEventListener("DOMContentLoaded", function () {
     let saludoLogin = document.querySelector('.saludo-login');
     let saludoRegister = document.querySelector('.saludo-register');
     let logout = document.querySelector('.link-logout');
+    let barra = document.querySelector('.barra')
 
     if (datosIngresados) {
         let datosUsuario = JSON.parse(datosIngresados);
         if(datosUsuario.email){
-            saludoBienvenida.innerText = 'Bienvenido: ' + datosUsuario.email;
+            saludoBienvenida.innerText = 'BIENVENIDO: ' + datosUsuario.email;
+            saludoBienvenida.style.textAlign = 'right';
+            saludoBienvenida.style.marginLeft = '12%';
+            logout.innerText = 'LOGOUT';
+            barra.style.marginLeft = '4%';
+            
 
             saludoBienvenida.style.display = 'block';
             saludoLogin.style.display = 'none';
             saludoRegister.style.display = 'none';
         }
 
-        document.querySelector('.link-logout').addEventListener('click', function (e) {
+        logout.addEventListener('click', function (e) {
             e.preventDefault();
             localStorage.removeItem('datosIngresados');
             window.location.href = './login.html';
