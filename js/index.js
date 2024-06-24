@@ -53,7 +53,6 @@ fetch('https://fakestoreapi.com/products')
         `;
         }
         contenedorMujer.innerHTML = Mujer;
-
     })
 
     .catch(function (error) {

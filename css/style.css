@@ -40,6 +40,12 @@ a {
     text-decoration: none;
 }
 
+.barra a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
 div img {
     height: 360px;
     width: 270px;
