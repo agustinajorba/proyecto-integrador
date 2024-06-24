@@ -11,6 +11,7 @@ if (localStorage.getItem('miCart') !== null) {
 
 if (lista.length === 0) {
     contenedorCart.innerText = 'Su carrito está vacío';
+    finalizarCompraButton.style.display= 'none';
 } else {
     let cart = '';
 
