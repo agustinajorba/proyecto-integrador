@@ -1,6 +1,7 @@
 let ulCart = document.querySelector('.ul-cart'); 
 let contenedorCart = document.querySelector('.contenedor-cart'); 
 let lista = [];
+let finalizarCompraButton = document.querySelector('.boton-comprar');
 
 
 if (localStorage.getItem('miCart') !== null) {
@@ -33,8 +34,6 @@ if (lista.length === 0) {
     });
 }
 
-
-let finalizarCompraButton = document.querySelector('.boton-comprar');
 finalizarCompraButton.addEventListener("click", function (e) {
     e.preventDefault();
     alert('¡Gracias por tu compra!');
