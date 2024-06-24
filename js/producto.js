@@ -16,7 +16,7 @@ fetch(`https://fakestoreapi.com/products/${id}`)
             ` <article class='contenedor contenedor-producto '>
             <img src="${data.image}" alt="${data.title}" class= "foto-producto"></img>
         <p class= 'textos-secciones' style='text-align :center; font-weight:bold;'>${data.title}</p>
-        <p class= 'texto-categoria-producto'><a href="./category.html?id=${data.id}" style='color:black;'>${data.category.toUpperCase()}</a></p>
+        <p class= 'texto-categoria-producto'><a href="./category.html?categorias=${data.category}"" style='color:black;'>${data.category.toUpperCase()}</a></p>
         <p class='textos-precio-producto'> $${data.price}</p>
         <p class= 'texto-secciones'>${data.description}</p>
         <a href="./cart.html?id=${data.id}" class= "boton-carrito-producto">Agregar al Carrito</a>

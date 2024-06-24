@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", function () {
     let saludoRegister = document.querySelector('.saludo-register');
     let logout = document.querySelector('.link-logout');
     //let barra = document.querySelector('.barra');
-    let barraCategory = document.querySelector('.barra-category');
 
 
     if (datosIngresados) {
@@ -31,20 +30,18 @@ document.addEventListener("DOMContentLoaded", function () {
             window.location.href = './login.html';
             saludoLogin.style.display = 'block';
             saludoRegister.style.display = 'block';
-            barraCategory.innerHTML = `
-        <p><a href="./category.html?categorias=jewelery">ACCESORIOS</a></p>
-        <p><a href="./category.html?categorias=electronics">ELECTRÓNICA</a></p>
-        <p><a href="./category.html?categorias=men's clothing">HOMBRE</a></p>
-        <p><a href="./category.html?categorias=women's clothing">MUJER</a></p>`;
-
-            barraCategory.style.display ='block';
 
         });
 
 
 
-
     }
-
+    let barraCategory = document.querySelector('.barra-category');
+    barraCategory.innerHTML = `
+    <p><a href="./category.html?categorias=jewelery">ACCESORIOS</a></p>
+    <p><a href="./category.html?categorias=electronics">ELECTRÓNICA</a></p>
+    <p><a href="./category.html?categorias=men's clothing">HOMBRE</a></p>
+    <p><a href="./category.html?categorias=women's clothing">MUJER</a></p>`;
 
 });
+

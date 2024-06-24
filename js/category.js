@@ -19,8 +19,7 @@ fetch(`https://fakestoreapi.com/products/category/${category}`)
                         <p class='textos-secciones' style='text-align: center; font-weight: bold;'>${categoria[i].title}</p>
                         <p class='texto-categoria-producto'><a href="./category.html?categorias=${categoria[i].category}" style='color: black;'>${categoria[i].category.toUpperCase()}</a></p>
                         <p class='textos-precio-producto'> $${categoria[i].price}</p>
-                        <p class='texto-secciones'>${categoria[i].description}</p>
-                        <a href="./product_detail.html?id=${categoria[i].id}" class="detalle-producto">Ver detalle</a>
+                        <a href="./producto.html?id=${categoria[i].id}" style='color: black; text-decoration: underline;' class="detalle-producto">Ver detalle</a>
                     </article>`;
         }
         contenedorCategory.innerHTML = productosCategory;

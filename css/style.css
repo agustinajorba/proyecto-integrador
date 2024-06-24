@@ -77,7 +77,6 @@ div img {
     flex-wrap: wrap;
     flex-direction: flex;
     justify-content: center;
-    justify-content: space-between;
     align-items: flex-start;
     font-family: "Fira Sans", sans-serif;
     font-weight: 100;
