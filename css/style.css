@@ -270,8 +270,6 @@ main {
 }
 
 .altura-main {
-    height: 85vh;
-    display: flex;
     align-items: center;
     justify-content: space-around;
 }
@@ -338,4 +336,6 @@ main {
     border-radius: 50vh;
     width: 160px;
     text-align: center;
+    margin: 3%;
+    margin-left: 43%;
 }
