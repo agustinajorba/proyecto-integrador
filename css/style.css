@@ -15,6 +15,7 @@ header {
     font-family: "DM Serif Display", serif;
     font-weight: 400;
     font-size: 24px;
+    margin-right: 2%;
 }
 
 a {
@@ -25,17 +26,18 @@ a {
 .barra-navegacion {
     display: flex;
     flex-direction: row;
+    
     flex-wrap: wrap;
     font-family: "Fira Sans", sans-serif;
     align-items: center;
     color: white;
-    margin-left: 4%;
+    
 }
 
 .barra {
     display: flex;
     flex-direction: row;
-    padding-left: 2.5%;
+    padding-left: 1%;
     color: white;
     text-decoration: none;
 }
@@ -43,8 +45,25 @@ a {
 .barra a {
     color: white;
     text-decoration: none;
-    padding: 10px;
+    
 }
+
+.barra-category {
+    display: flex;
+    justify-content: space-between;
+}
+
+.barra-category p {
+    margin: 0;
+    padding: 0 10px; 
+}
+
+.barra-category a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
 
 div img {
     height: 360px;

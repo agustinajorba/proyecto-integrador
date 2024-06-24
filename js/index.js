@@ -53,6 +53,14 @@ fetch('https://fakestoreapi.com/products')
         `;
         }
         contenedorMujer.innerHTML = Mujer;
+
+        let barraCategory = document.querySelector('.barra-category')
+        barraCategory.innerHTML = `
+        <p><a href="./category.html?categorias=jewelery">ACCESORIOS</a></p>
+        <p><a href="./category.html?categorias=electronics">ELECTRÓNICA</a></p>
+        <p><a href="./category.html?categorias=men's clothing">HOMBRE</a></p>
+        <p><a href="./category.html?categorias=women's clothing">MUJER</a></p>
+        `;
     })
 
     .catch(function (error) {

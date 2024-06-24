@@ -12,9 +12,9 @@ document.addEventListener("DOMContentLoaded", function () {
         if(datosUsuario.email){
             saludoBienvenida.innerText = 'BIENVENIDO: ' + datosUsuario.email;
             saludoBienvenida.style.textAlign = 'right';
-            saludoBienvenida.style.marginLeft = '12%';
+            //saludoBienvenida.style.marginLeft = '12%';
             logout.innerText = 'LOGOUT';
-            barra.style.marginLeft = '4%';
+            //barra.style.marginLeft = '4%';
             
 
             saludoBienvenida.style.display = 'block';
@@ -23,5 +23,12 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
     }
+
+    let barraCategory = document.querySelector('.barra-category')
+        barraCategory.innerHTML = `
+        <p><a href="./category.html?categorias=jewelery">ACCESORIOS</a></p>
+        <p><a href="./category.html?categorias=electronics">ELECTRÓNICA</a></p>
+        <p><a href="./category.html?categorias=men's clothing">HOMBRE</a></p>
+        <p><a href="./category.html?categorias=women's clothing">MUJER</a></p>`;
 
 });

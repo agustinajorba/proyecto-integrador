@@ -42,4 +42,12 @@ formRegister.addEventListener("submit", function(e){
     if(emailRegister.value !== "" && emailRegister.value !== "" && contraRegister.value.length >= 6 && contraRegister.value === contraRepRegister.value){
         this.submit();
     }
+
+    let barraCategory = document.querySelector('.barra-category')
+        barraCategory.innerHTML = `
+        <p><a href="./category.html?categorias=jewelery">ACCESORIOS</a></p>
+        <p><a href="./category.html?categorias=electronics">ELECTRÓNICA</a></p>
+        <p><a href="./category.html?categorias=men's clothing">HOMBRE</a></p>
+        <p><a href="./category.html?categorias=women's clothing">MUJER</a></p>`;
+        
 });

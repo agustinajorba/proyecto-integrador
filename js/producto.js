@@ -23,7 +23,15 @@ fetch(`https://fakestoreapi.com/products/${id}`)
         </article>`;
 
         contenedor.innerHTML = productoHTML;
+
+        let barraCategory = document.querySelector('.barra-category')
+        barraCategory.innerHTML = `
+        <p><a href="./category.html?categorias=jewelery">ACCESORIOS</a></p>
+        <p><a href="./category.html?categorias=electronics">ELECTRÓNICA</a></p>
+        <p><a href="./category.html?categorias=men's clothing">HOMBRE</a></p>
+        <p><a href="./category.html?categorias=women's clothing">MUJER</a></p>`;
     })
+    
     .catch(function (error) {
         console.log("El error es: " + error);
     })
